@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+#input{
+    border: 3px solid #121212;
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover{
+
+    box-shadow: 0 3px 3px 0 #121212;
+    font-weight: bolder;
+
+}
+
+#operadores{
+    display: flex;
+}
+
+#operadores button{
+    background-color: #ddd;
+    height: 50px;
+    width: 50px;
+}
+
+.numero{
+    height: 50px;
+    width: 50px;
+}
+
+.number-field{
+    display: flex;
+}
+
+#clear{
+    height: 50px;
+    width: 50px;
+}
+
+#ponto{
+    font-size: 2rem;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    
+}
+
+#igual{
+    display: inline-block;
+  border: 1px solid #3079ED;
+  border-radius: 1px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 1.5rem;
+  margin: 10px 6px 10px 0;
+  vertical-align: top;
+  cursor: pointer;
+  color: #FFF;
+  background-color: #4d90fe;
+  transition: all .2s ease-in-out;
+}
+
+#igual:hover{
+
+    background-color: #307CF9;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  border-color: #1857BB;
+}
